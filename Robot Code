@@ -141,161 +141,19 @@ void loop() {
 
     // You can read the right side buttons (star, and circle and all that)
     if (PS3.getButtonClick(TRIANGLE)) {
-//      Triangle = !Triangle;
-//      horn = !horn;
-//      tone(9, C4);
-//      if (horn == HIGH) {
-//        noTone(9);
-//      }
+
       
       Serial.print(F("\r\nTraingle = "));
       Serial.print(Triangle);
-//      digitalWrite(blue_led, HIGH);
-//    } else {
-//      digitalWrite(blue_led, LOW);
-//                           
+                          
       }
     if (PS3.getButtonClick(CIRCLE)) {
       Circle = !Circle;
       Serial.print(F("\r\nCircle = "));
       Serial.print(Circle);
-//      music = !music;
+
       tone(9, C4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, E4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, F4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, G4);
-//      delay(tempo);
-//      noTone(9);
-//      delay(tempo);
-//      tone(9, C4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, E4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, F4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, G4);
-//      delay(tempo);
-//      noTone(9);
-//      delay(tempo);
-//      tone(9, C4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, E4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, F4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, G4);
-//      delay(tempo / 2);
-//      noTone(9);
-//      delay(tempo / 2);
-//      tone(9, E4);
-//      delay(tempo / 2);
-//      noTone(9);
-//      delay(tempo / 2);
-//      tone(9, C4);
-//      delay(tempo / 2);
-//      noTone(9);
-//      delay(tempo / 2);
-//      tone(9, E4);
-//      delay(tempo / 2);
-//      noTone(9);
-//      delay(tempo / 2);
-//      tone(9, D4);
-//      delay(tempo);
-//      noTone(9);
-//      delay(tempo);
-//      tone(9, E4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, E4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, D4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, C4);
-//      delay(tempo);
-//      noTone(9);
-//      delay(tempo);
-//      tone(9, C4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, E4);
-//      delay(tempo / 2);
-//      noTone(9);
-//      delay(tempo / 2);
-//      tone(9, G4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, G4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, G4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, F4);
-//      delay(tempo);
-//      noTone(9);
-//      delay(tempo);
-//      tone(9, C4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, E4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, F4);
-//      delay(tempo / 2 / 2);
-//      noTone(9);
-//      delay(tempo / 2 / 2);
-//      tone(9, G4);
-//      delay(tempo / 2);
-//      noTone(9);
-//      delay(tempo / 2);
-//      tone(9, E4);
-//      delay(tempo / 2);
-//      noTone(9);
-//      delay(tempo / 2);
-//      tone(9, C4);
-//      delay(tempo / 2);
-//      noTone(9);
-//      delay(tempo / 2);
-//      tone(9, D4);
-//      delay(tempo / 2);
-//      noTone(9);
-//      delay(tempo / 2);
-//      tone(9, C4);
-//      delay(tempo);
-//      noTone(9);
-//      delay(tempo);
+
       if (music == HIGH) {
         noTone(9);
       }
